@@ -1,0 +1,20 @@
+{
+  "name": "viem-sigsegv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ido",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "build": "rm -rf dist && tsc"
+  },
+  "dependencies": {
+    "viem": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.1.3"
+  }
+}
